@@ -39,7 +39,7 @@ jobs:
           cache-to: type=gha,mode=max
 
       - name: Move Repository
-        uses: actions/checkout@main
+        uses: actions/checkout@master
         with:
           repository: jy9922/manifest
           token: ${{ secrets.ACTION_TOKEN }}
