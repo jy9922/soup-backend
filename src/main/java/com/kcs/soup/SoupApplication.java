@@ -11,7 +11,7 @@ import java.util.TimeZone;
 @EnableJpaRepositories(basePackages = {"com.kcs.soup.api.admin","com.kcs.soup.api.member"})
 @EnableScheduling
 public class SoupApplication {
-// soup!
+// soup!!
     @PostConstruct
     void started() {
         TimeZone.setDefault(TimeZone.getTimeZone("Asia/Seoul"));
